@@ -1,0 +1,11 @@
+my_dwh_project:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: dwh
+      host: localhost
+      port: 8123
+      user: admin
+      password: admin123
+      secure: false
